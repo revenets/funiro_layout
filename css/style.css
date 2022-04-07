@@ -1636,6 +1636,10 @@ h6 {
   }
 }
 
+.item-product__actions {
+  padding-top: 0.9375rem;
+}
+
 .actions-product__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3695,11 +3699,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-@media (any-hover: none) and (pointer: none) {
-  .item-product__actions {
-    padding-top: 0.9375rem;
-  }
-
+@media (any-hover: none) and (pointer: coarse) {
   .furniture__body {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
