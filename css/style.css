@@ -3699,10 +3699,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-@media (any-hover: none) and (pointer: coarse) {
+@media (hover: none) and (pointer: coarse) {
   .furniture__body {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: auto !important;
   }
 }
 
